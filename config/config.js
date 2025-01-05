@@ -12,14 +12,14 @@ var path = require('path');
 var theme_dir = path.join(
   __dirname,
   '..',
-  'node_modules',
-  '@raneto/theme-default',
+  'theme',
+  'theme-default',
 );
 var theme_name = 'dist';
 
 var config = {
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'Notes',
 
   // The base URL of your site (can use %base_url% in Markdown files)
   // This should be the full path to your Raneto installation:
@@ -119,13 +119,9 @@ var config = {
   // https://www.grc.com/passwords.htm
   credentials: [
     {
-      username: 'admin',
-      password: 'password',
-    },
-    {
-      username: 'admin2',
-      password: 'password',
-    },
+      username: 'utkarsh',
+      password: 'utkarsh1850',
+    }
   ],
 
   locale: 'en',
